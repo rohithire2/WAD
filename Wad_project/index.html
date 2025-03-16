@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProSports Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-item img {
+            height: 500px;
+            width: 100%;
+            object-fit: contain;
+        }
+        .card img {
+            height: 200px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">ProSports Hub</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Offers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+            <form class="d-flex ms-3">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-warning" type="submit">Search</button>
+            </form>
+            <a href="#" class="btn btn-light ms-3">Cart</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+            <img src="https://kheladda.in/image/cache/catalog/Cricket/Cricket%20Bat/SF%20bat/Almandus%2010000/SF_EN_00505_AP_large-600x600.jpg" alt="Sports Equipment">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://kheladda.in/image/cache/catalog/Cricket/Cricket%20Bat/SG%20/Player%20Edition/Player%20Edition%201-600x600.JPG" class="d-block w-100" alt="Cricket Bat">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://kheladda.in/image/cache/catalog/BADMINTON/Shoes/yonex%20court%20ace%20tough%20GREEN%20BLUE-600x600.jpeg" class="d-block w-100" alt="Badminton Shoes">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- Product Cards -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Featured Products</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://kheladda.in/image/cache/catalog/Cricket/Cricket%20Bat/SG%20/Player%20Edition/Player%20Edition%201-600x600.JPG" class="card-img-top" alt="Cricket Bat">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cricket Bat</h5>
+                    <p class="card-text">$50</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://kheladda.in/image/cache/catalog/BADMINTON/Shoes/yonex%20court%20ace%20tough%20GREEN%20BLUE-600x600.jpeg" class="card-img-top" alt="Sports Shoes">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Sports Shoes</h5>
+                    <p class="card-text">$80</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://sportsjam.in/media/wysiwyg/babolat-pure-aero-rafa_1.png" class="card-img-top" alt="Badminton Racket">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Badminton Racket</h5>
+                    <p class="card-text">$40</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="data:image/webp;base64,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" class="card-img-top" alt="Football">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Football</h5>
+                    <p class="card-text">$30</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
