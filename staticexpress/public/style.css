@@ -1,0 +1,21 @@
+#search1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+}
+#main{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
